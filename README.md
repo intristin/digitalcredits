@@ -5,14 +5,23 @@ DigitalCredits is an SHA256d PoW/PoS based cryptocurrency.
 
 
 Algo : SHA256d
+
 PoW/PoS
+
 PoW Blocks - 5 DGCS
+
 PoS 1 % Annual
+
 PoS starts from Block 60000+
+
 Blocktime - 60 seconds
+
 Diff. Retarget - Each Block
+
 Premine 200000000 DGCS (PoB Funds)
+
 RPCPORT : 7182
+
 P2PPORT : 7183
 
 
