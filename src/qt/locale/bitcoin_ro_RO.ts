@@ -236,7 +236,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DGCS&lt;/b&gt;!</source>
         <translation>Atentie: Daca encriptezi portofelul si iti uiti parola, &lt;b&gt;VEI PIERDE TOATA MONEDELE&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -352,7 +352,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-13"/>
-        <source>&amp;Receive Credits</source>
+        <source>&amp;Receive coins</source>
         <translation>Primește monede</translation>
     </message>
     <message>
@@ -362,7 +362,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-7"/>
-        <source>&amp;Send Credits</source>
+        <source>&amp;Send coins</source>
         <translation>&amp;Trimite monede</translation>
     </message>
     <message>
@@ -427,7 +427,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-62"/>
-        <source>Send Credits to a DigitalCredits address</source>
+        <source>Send coins to a DigitalCredits address</source>
         <translation>Trimite monede către o adresă DigitalCredits</translation>
     </message>
     <message>
@@ -1125,7 +1125,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 5.00 recommended.</source>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.00002 recommended.</source>
         <translation>Comision de tranzacție opțional pe kB, care vă ajută ca tranzacțiile sa fie procesate rapid. Majoritatea tranzactiilor sunt de 1 kB. Comision de 0.01 recomandat</translation>
     </message>
     <message>
@@ -1756,8 +1756,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Introduceți o adresă DigitalCredits(ex:2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Introduceți o adresă DigitalCredits(ex:DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1900,8 +1900,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Adresa catre care trimiteti plata(ex. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address to send the payment to  (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Adresa catre care trimiteti plata(ex. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1930,8 +1930,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Introduceți o adresă DigitalCredits(ex:2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Introduceți o adresă DigitalCredits(ex:DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
 </context>
 <context>
@@ -1954,8 +1954,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Adresa cu care semnati mesajul(ex. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address to sign the message with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Adresa cu care semnati mesajul(ex. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2018,8 +2018,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Adresa cu care a fost semnat mesajul(ex. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address the message was signed with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Adresa cu care a fost semnat mesajul(ex. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2034,8 +2034,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Introduceți o adresă DigitalCredits(ex:2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Introduceți o adresă DigitalCredits(ex:DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2625,8 +2625,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or DigitalCreditsd</source>
-        <translation>Trimite comanda catre server sau DigitalCreditsd</translation>
+        <source>Send command to -server or digitalcreditsd</source>
+        <translation>Trimite comanda catre server sau digitalcreditsd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2645,12 +2645,12 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: DigitalCredits.conf)</source>
-        <translation>Specifica fisier de configurare(implicit: DigitalCredits.conf)</translation>
+        <source>Specify configuration file (default: digitalcredits.conf)</source>
+        <translation>Specifica fisier de configurare(implicit: digitalcredits.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: DigitalCreditsd.pid)</source>
+        <source>Specify pid file (default: digitalcreditsd.pid)</source>
         <translation>Speficica fisier pid(implicit: DigitalCredits.pid)</translation>
     </message>
     <message>
@@ -2675,8 +2675,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
-        <translation>Ascultă pentru conectări pe &lt;port&gt; (implicit:  15714 sau testnet: 25714) </translation>
+        <source>Listen for connections on &lt;port&gt; (default: 29081 or testnet: 25086)</source>
+        <translation>Ascultă pentru conectări pe &lt;port&gt; (implicit:  29081 sau testnet: 25086) </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2735,8 +2735,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
-        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:15715 sau testnet: 25715)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 29061 or testnet: 26086)</source>
+        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:29061 sau testnet: 26086)</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2990,7 +2990,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=DigitalCreditsrpc
+rpcuser=digitalcredits-rpc-username
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2999,7 +2999,7 @@ It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;DigitalCredits Alert&quot; admin@foo.com
 </source>
         <translation>%s, trebuie să configurați o parolă rpc în fișierul de configurare: %s
-Este recomandat să folosiți următoarea parolă generată aleator: rpcuser=DigitalCreditsrpc
+Este recomandat să folosiți următoarea parolă generată aleator: rpcuser=digitalcredits-rpc-username
 rpcpassword=%s
 (nu trebuie să țineți minte această parolă)
 Username-ul și parola NU TREBUIE să fie aceleași.

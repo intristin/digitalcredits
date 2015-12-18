@@ -4,7 +4,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About DigitalCredits</source>
-        <translation>Tietoa BDigitalCreditsista</translation>
+        <translation>Tietoa BTestcoinista</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -235,7 +235,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DGCS&lt;/b&gt;!</source>
         <translation>Varoitus: Jos salaat lompakkosi ja hukkaat salasanasi, &lt;b&gt;MENETÄT KAIKKI KOLIKKOSI&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -351,7 +351,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-13"/>
-        <source>&amp;Receive Credits</source>
+        <source>&amp;Receive coins</source>
         <translation>&amp;Vastaanota kolikoita</translation>
     </message>
     <message>
@@ -361,7 +361,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-7"/>
-        <source>&amp;Send Credits</source>
+        <source>&amp;Send coins</source>
         <translation>&amp;Lähetä kolikoita</translation>
     </message>
     <message>
@@ -426,7 +426,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-62"/>
-        <source>Send Credits to a DigitalCredits address</source>
+        <source>Send coins to a DigitalCredits address</source>
         <translation>Lähetä kolikkoja DigitalCredits osoitteeseen</translation>
     </message>
     <message>
@@ -1123,7 +1123,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 5.00 recommended.</source>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.00002 recommended.</source>
         <translation>Vapaavalintainen rahansiirtopalkkio kilotavua kohden auttaa varmistamaan että rahansiirtosi käsitellään nopeasti. Suurin osa rahansiirroista on alle yhden kilotavun. Palkkiota 0.01 suositellaan.</translation>
     </message>
     <message>
@@ -1754,8 +1754,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Syötä DigitalCredits-osoite (esim. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Syötä DigitalCredits-osoite (esim. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1898,8 +1898,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Osoite, johon maksu lähetetään (esim. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address to send the payment to  (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Osoite, johon maksu lähetetään (esim. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1928,8 +1928,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Syötä DigitalCredits-osoite (esim. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Syötä DigitalCredits-osoite (esim. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
 </context>
 <context>
@@ -1952,8 +1952,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Osoite, jolle viesti kirjataan (esim. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address to sign the message with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Osoite, jolle viesti kirjataan (esim. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2016,8 +2016,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Osoite, jolla viesti on allekirjoitettu (esim. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci) </translation>
+        <source>The address the message was signed with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Osoite, jolla viesti on allekirjoitettu (esim. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9) </translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2032,8 +2032,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Syötä DigitalCredits-osoite (esim. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Syötä DigitalCredits-osoite (esim. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2623,8 +2623,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or DigitalCreditsd</source>
-        <translation>Syötä komento kohteeseen -server tai DigitalCreditsd</translation>
+        <source>Send command to -server or digitalcreditsd</source>
+        <translation>Syötä komento kohteeseen -server tai digitalcreditsd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2643,12 +2643,12 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: DigitalCredits.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: DigitalCredits.conf)</translation>
+        <source>Specify configuration file (default: digitalcredits.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: digitalcredits.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: DigitalCreditsd.pid)</source>
+        <source>Specify pid file (default: digitalcreditsd.pid)</source>
         <translation>Määritä prosessitiedosto (oletus: DigitalCredits.pid)</translation>
     </message>
     <message>
@@ -2673,8 +2673,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
-        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 15714 tai testiverkko: 25714)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 29081 or testnet: 25086)</source>
+        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 29081 tai testiverkko: 25086)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2733,8 +2733,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
-        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 15715 tai testiverkko: 25715)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 29061 or testnet: 26086)</source>
+        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 29061 tai testiverkko: 26086)</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2988,7 +2988,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=DigitalCreditsrpc
+rpcuser=digitalcredits-rpc-username
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2999,7 +2999,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DigitalCredits Alert&quot; adm
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
 On suositeltavaa, että käytät seuraavaa arvottua salasanaa:
-rpcuser=DigitalCreditsrpc
+rpcuser=digitalcredits-rpc-username
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.

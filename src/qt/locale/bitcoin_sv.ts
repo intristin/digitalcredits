@@ -4,7 +4,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About DigitalCredits</source>
-        <translation>Vad du behöver veta om BDigitalCredits</translation>
+        <translation>Vad du behöver veta om BTestcoin</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -237,7 +237,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DGCS&lt;/b&gt;!</source>
         <translation>Varning: Om du krypterar plånboken och glömmer lösenordet, kommer du att &lt;b&gt;FÖRLORA ALLA COINS&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -265,7 +265,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="-58"/>
         <source>DigitalCredits will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BDigitalCredits plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
+        <translation>BTestcoin plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -353,7 +353,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-13"/>
-        <source>&amp;Receive Credits</source>
+        <source>&amp;Receive coins</source>
         <translation>&amp;Ta emot coins</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-7"/>
-        <source>&amp;Send Credits</source>
+        <source>&amp;Send coins</source>
         <translation>&amp;Skicka coins</translation>
     </message>
     <message>
@@ -428,7 +428,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-62"/>
-        <source>Send Credits to a DigitalCredits address</source>
+        <source>Send coins to a DigitalCredits address</source>
         <translation>Skicka coins till en DigitalCredits adress</translation>
     </message>
     <message>
@@ -721,7 +721,7 @@ Adress: %4
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
         <source>A fatal error occurred. DigitalCredits can no longer continue safely and will quit.</source>
-        <translation>Ett fatalt fel uppstod. BDigitalCredits kan inte fortsätta och stänger programmet.</translation>
+        <translation>Ett fatalt fel uppstod. BTestcoin kan inte fortsätta och stänger programmet.</translation>
     </message>
 </context>
 <context>
@@ -1015,7 +1015,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Namnet som kopplats till denna BDigitalCredits-adress</translation>
+        <translation>Namnet som kopplats till denna BTestcoin-adress</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1055,7 +1055,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid DigitalCredits address.</source>
-        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig BDigitalCredits adress.</translation>
+        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig BTestcoin adress.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1126,7 +1126,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 5.00 recommended.</source>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.00002 recommended.</source>
         <translation>Valfri transaktionsavgift per kB som försäkrar att transaktionen behandlas snabbt. De flesta transaktionerna är 1 kB. En avgift på 0,01 är rekommenderad.</translation>
     </message>
     <message>
@@ -1147,12 +1147,12 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+31"/>
         <source>Automatically start DigitalCredits after logging in to the system.</source>
-        <translation>Starta BDigitalCredits automatiskt vid inloggning.</translation>
+        <translation>Starta BTestcoin automatiskt vid inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start DigitalCredits on system login</source>
-        <translation>&amp;Starta BDigitalCredits vid inloggning</translation>
+        <translation>&amp;Starta BTestcoin vid inloggning</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1757,8 +1757,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Fyll i en DigitalCredits adress (t.ex. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Fyll i en DigitalCredits adress (t.ex. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1901,8 +1901,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Adressen att skicka betalningen till  (t.ex. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address to send the payment to  (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Adressen att skicka betalningen till  (t.ex. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1931,8 +1931,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Fyll i en DigitalCredits adress (t.ex. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Fyll i en DigitalCredits adress (t.ex. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
 </context>
 <context>
@@ -1955,8 +1955,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Adressen att signera meddelandet med (t.ex. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address to sign the message with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Adressen att signera meddelandet med (t.ex. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2019,8 +2019,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Adressen meddelandet var signerad med (t.ex. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address the message was signed with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Adressen meddelandet var signerad med (t.ex. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2035,8 +2035,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Fyll i en DigitalCredits adress (t.ex. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Fyll i en DigitalCredits adress (t.ex. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2626,8 +2626,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or DigitalCreditsd</source>
-        <translation>Skicka kommando till -server eller DigitalCreditsd</translation>
+        <source>Send command to -server or digitalcreditsd</source>
+        <translation>Skicka kommando till -server eller digitalcreditsd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2646,13 +2646,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: DigitalCredits.conf)</source>
-        <translation>Ange konfigurationsfilen (standard: DigitalCredits.conf)</translation>
+        <source>Specify configuration file (default: digitalcredits.conf)</source>
+        <translation>Ange konfigurationsfilen (standard: digitalcredits.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: DigitalCreditsd.pid)</source>
-        <translation>Ange pid filen (standard DigitalCreditsd.pid)</translation>
+        <source>Specify pid file (default: digitalcreditsd.pid)</source>
+        <translation>Ange pid filen (standard digitalcreditsd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2676,8 +2676,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
-        <translation>Lyssna efter anslutningar på &lt;port&gt; (standard: 15714 eller testnät: 25714)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 29081 or testnet: 25086)</source>
+        <translation>Lyssna efter anslutningar på &lt;port&gt; (standard: 29081 eller testnät: 25086)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2736,8 +2736,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
-        <translation>Lyssna efter JSON-RPC anslutningar på &lt;port&gt; (standard: 15715 eller testnät: 25715)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 29061 or testnet: 26086)</source>
+        <translation>Lyssna efter JSON-RPC anslutningar på &lt;port&gt; (standard: 29061 eller testnät: 26086)</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2802,7 +2802,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+61"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DigitalCredits will not work properly.</source>
-        <translation>Varning: Kolla att din dators tid och datum är rätt. BDigitalCredits kan inte fungera ordentligt om tiden i datorn är fel.</translation>
+        <translation>Varning: Kolla att din dators tid och datum är rätt. BTestcoin kan inte fungera ordentligt om tiden i datorn är fel.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2991,7 +2991,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=DigitalCreditsrpc
+rpcuser=digitalcredits-rpc-username
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3002,7 +3002,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DigitalCredits Alert&quot; adm
         <translation>%s, du måste sätta rpcpassword i konfigurationsfilen:
  %s
 Det är rekommenderat att du använder följande slumpmässiga lösenord:
-rpcuser=DigitalCreditsrpc
+rpcuser=digitalcredits-rpc-username
 rpcpassword=%s
 (du behöver inte komma ihåg detta lösenord)
 Användarnamnet och lösenordet FÅR INTE vara samma.
@@ -3134,7 +3134,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;DigitalCredits Varning&quot; 
     <message>
         <location line="+1"/>
         <source>Cannot obtain a lock on data directory %s.  DigitalCredits is probably already running.</source>
-        <translation>Kan inte låsa datan i mappen %s. BDigitalCredits är kanske redan startad.</translation>
+        <translation>Kan inte låsa datan i mappen %s. BTestcoin är kanske redan startad.</translation>
     </message>
     <message>
         <location line="-98"/>
@@ -3174,12 +3174,12 @@ till exempel: alertnotify=echo %%s | mail -s &quot;DigitalCredits Varning&quot; 
     <message>
         <location line="+4"/>
         <source>Error loading wallet.dat: Wallet requires newer version of DigitalCredits</source>
-        <translation>Kunde inte ladda wallet.dat: En nyare version av BDigitalCredits krävs</translation>
+        <translation>Kunde inte ladda wallet.dat: En nyare version av BTestcoin krävs</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart DigitalCredits to complete</source>
-        <translation>Plånboken måste skrivas om: Starta om BDigitalCredits för att slutföra</translation>
+        <translation>Plånboken måste skrivas om: Starta om BTestcoin för att slutföra</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3249,7 +3249,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;DigitalCredits Varning&quot; 
     <message>
         <location line="+122"/>
         <source>Unable to bind to %s on this computer. DigitalCredits is probably already running.</source>
-        <translation>Kan inte binda till %s på denna dator. BDigitalCredits är sannolikt redan startad.</translation>
+        <translation>Kan inte binda till %s på denna dator. BTestcoin är sannolikt redan startad.</translation>
     </message>
     <message>
         <location line="-97"/>
