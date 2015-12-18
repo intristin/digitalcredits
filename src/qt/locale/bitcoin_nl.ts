@@ -236,7 +236,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DGCS&lt;/b&gt;!</source>
         <translation>Waarschuwing: Als je je portemonnee versleuteld en je verliest je wachtwoord zul je &lt;b&gt;AL JE MUNTEN VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -352,7 +352,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-13"/>
-        <source>&amp;Receive Credits</source>
+        <source>&amp;Receive coins</source>
         <translation>&amp;Ontvang munten</translation>
     </message>
     <message>
@@ -362,7 +362,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-7"/>
-        <source>&amp;Send Credits</source>
+        <source>&amp;Send coins</source>
         <translation>Verstuur munten</translation>
     </message>
     <message>
@@ -427,7 +427,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-62"/>
-        <source>Send Credits to a DigitalCredits address</source>
+        <source>Send coins to a DigitalCredits address</source>
         <translation>Verstuur munten naar een DigitalCredits adres</translation>
     </message>
     <message>
@@ -720,7 +720,7 @@ Adres: %4
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
         <source>A fatal error occurred. DigitalCredits can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout . BDigitalCredits kan niet langer veilig doorgaan en sluit af.</translation>
+        <translation>Een fatale fout . BTestcoin kan niet langer veilig doorgaan en sluit af.</translation>
     </message>
 </context>
 <context>
@@ -1054,7 +1054,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid DigitalCredits address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig BDigitalCredits adres.</translation>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig BTestcoin adres.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1125,8 +1125,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 5.00 recommended.</source>
-        <translation>Optioneel transactiekosten per kB dat helpt ervoor zorgen dat uw transacties worden snel verwerkt. De meeste transacties zijn 1 kB. Fee 0.01 aanbevolen.</translation>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.00002 recommended.</source>
+        <translation>Optioneel transactiekosten per kB dat helpt ervoor zorgen dat uw transacties worden snel verwerkt. De meeste transacties zijn 1 kB. Fee 0.00002 aanbevolen.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1146,12 +1146,12 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+31"/>
         <source>Automatically start DigitalCredits after logging in to the system.</source>
-        <translation>Automatisch starten van BDigitalCredits na inloggen van het systeem.</translation>
+        <translation>Automatisch starten van BTestcoin na inloggen van het systeem.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start DigitalCredits on system login</source>
-        <translation>&amp;Start BDigitalCredits bij systeem aanmelding</translation>
+        <translation>&amp;Start BTestcoin bij systeem aanmelding</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1553,7 +1553,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+7"/>
         <source>Show the DigitalCredits-Qt help message to get a list with possible DigitalCredits command-line options.</source>
-        <translation>Laat het BDigitalCredits-QT help bericht zien om een lijst te krijgen met mogelijke BDigitalCredits command-regel opties.</translation>
+        <translation>Laat het BTestcoin-QT help bericht zien om een lijst te krijgen met mogelijke BTestcoin command-regel opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1573,7 +1573,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="-104"/>
         <source>DigitalCredits - Debug window</source>
-        <translation>BDigitalCredits - Debugscherm</translation>
+        <translation>BTestcoin - Debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -1756,8 +1756,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Voeg een BDigitalCredits adres in (bijv. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Voeg een BTestcoin adres in (bijv. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1857,7 +1857,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+251"/>
         <source>WARNING: Invalid DigitalCredits address</source>
-        <translation>WAARSCHUWING: Ongeldig BDigitalCredits adres</translation>
+        <translation>WAARSCHUWING: Ongeldig BTestcoin adres</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1900,8 +1900,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Het adres om naar te betalen (bijv. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address to send the payment to  (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Het adres om naar te betalen (bijv. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1930,8 +1930,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Voeg een BDigitalCredits adres in (bijv. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Voeg een BTestcoin adres in (bijv. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
 </context>
 <context>
@@ -1954,8 +1954,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Het adres om het bericht te ondertekenen (bijv. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci) </translation>
+        <source>The address to sign the message with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Het adres om het bericht te ondertekenen (bijv. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9) </translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2018,8 +2018,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Het adres van het bericht is ondertekend met (bijv. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address the message was signed with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Het adres van het bericht is ondertekend met (bijv. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2034,8 +2034,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Voeg een BDigitalCredits adres in (bijv. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Voeg een BTestcoin adres in (bijv. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2625,8 +2625,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or DigitalCreditsd</source>
-        <translation>Verstuur commando naar -server of DigitalCreditsd</translation>
+        <source>Send command to -server or digitalcreditsd</source>
+        <translation>Verstuur commando naar -server of digitalcreditsd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2645,13 +2645,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: DigitalCredits.conf)</source>
-        <translation>Selecteer configuratie bestand (standaard: DigitalCredits.conf)</translation>
+        <source>Specify configuration file (default: digitalcredits.conf)</source>
+        <translation>Selecteer configuratie bestand (standaard: digitalcredits.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: DigitalCreditsd.pid)</source>
-        <translation>Selecteer pid bestand (standaard: DigitalCredits.conf)</translation>
+        <source>Specify pid file (default: digitalcreditsd.pid)</source>
+        <translation>Selecteer pid bestand (standaard: digitalcredits.conf)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2675,8 +2675,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
-        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 15714 of testnet: 25714)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 29081 or testnet: 25086)</source>
+        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 29081 of testnet: 25086)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2735,8 +2735,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
-        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 15715 of testnet: 25715) </translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 29061 or testnet: 26086)</source>
+        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 29061 of testnet: 26086) </translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2990,7 +2990,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=DigitalCreditsrpc
+rpcuser=digitalcredits-rpc-username
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3001,7 +3001,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DigitalCredits Alert&quot; adm
         <translation>%s, u moet een rpcpassword instellen in het configuratiebestand: 
 %s 
 Het wordt aanbevolen de volgende willekeurig wachtwoord gebruiken: 
-rpcuser = DigitalCreditsrpc 
+rpcuser = digitalcreditsrpc 
 rpcpassword = %s 
 (je hoeft niet dit wachtwoord te onthouden) 
 De gebruikersnaam en het wachtwoord MAG NIET hetzelfde zijn. 

@@ -17,7 +17,7 @@
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The DigitalCredits developers</source>
         <translation>版权所有 © 2009-2014 比特币Bitcoin开发组
-版权所有 © 2012-2014 新星币DigitalCredits开发组
+版权所有 © 2012-2014 新星币Novacoin开发组
 版权所有 © 2014 黑币DigitalCredits开发组</translation>
     </message>
     <message>
@@ -236,7 +236,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DGCS&lt;/b&gt;!</source>
         <translation>警告：如果您丢失了加密该钱包的密码，其中所有的黑币将会丢失！</translation>
     </message>
     <message>
@@ -352,7 +352,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-13"/>
-        <source>&amp;Receive Credits</source>
+        <source>&amp;Receive coins</source>
         <translation>接收黑币(&amp;R)</translation>
     </message>
     <message>
@@ -362,7 +362,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-7"/>
-        <source>&amp;Send Credits</source>
+        <source>&amp;Send coins</source>
         <translation>发送黑币(&amp;S)</translation>
     </message>
     <message>
@@ -427,7 +427,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send Credits to a DigitalCredits address</source>
+        <source>Send coins to a DigitalCredits address</source>
         <translation>向指定的地址发送黑币</translation>
     </message>
     <message>
@@ -1118,7 +1118,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 5.00 recommended.</source>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.00002 recommended.</source>
         <translation>支付可选的交易手续费以加速交易(每kB)。大多数交易的数据量为1kB。推荐额0.01。</translation>
     </message>
     <message>
@@ -1749,8 +1749,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>输入黑币地址(例如：2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>输入黑币地址(例如：RJhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1893,8 +1893,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>收款人地址(例：2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address to send the payment to  (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>收款人地址(例：RJhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1923,8 +1923,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>输入一个黑币地址 (例：2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>输入一个黑币地址 (例：RJhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
     </message>
 </context>
 <context>
@@ -1947,8 +1947,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>用来签名该消息的地址(例： 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address to sign the message with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>用来签名该消息的地址(例： DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2011,8 +2011,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>用来签名该消息的黑币地址(例： 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address the message was signed with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>用来签名该消息的黑币地址(例： DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2027,8 +2027,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>输入黑币地址(例： 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>输入黑币地址(例： DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2618,7 +2618,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or DigitalCreditsd</source>
+        <source>Send command to -server or digitalcreditsd</source>
         <translation>向-server服务器或DigitalCreditsd发送命令</translation>
     </message>
     <message>
@@ -2641,13 +2641,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: DigitalCredits.conf)</source>
-        <translation>指定配置文件(默认: DigitalCredits.conf)</translation>
+        <source>Specify configuration file (default: digitalcredits.conf)</source>
+        <translation>指定配置文件(默认: digitalcredits.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: DigitalCreditsd.pid)</source>
-        <translation>指定pid文件(默认: DigitalCreditsd.pid)</translation>
+        <source>Specify pid file (default: digitalcreditsd.pid)</source>
+        <translation>指定pid文件(默认: digitalcreditsd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2672,8 +2672,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
-        <translation>监听&lt;port&gt;端口的连接 (默认: 15714 测试网: 25714)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 29081 or testnet: 25086)</source>
+        <translation>监听&lt;port&gt;端口的连接 (默认: 29081 测试网: 25086)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2732,8 +2732,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
-        <translation>监听 &lt;port&gt; 端口的JSON-RPC连接 (默认: 15715 测试网: 25715)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 29061 or testnet: 26086)</source>
+        <translation>监听 &lt;port&gt; 端口的JSON-RPC连接 (默认: 29061 测试网: 26086)</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2991,7 +2991,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=DigitalCreditsrpc
+rpcuser=digitalcredits-rpc-username
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3002,7 +3002,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DigitalCredits Alert&quot; adm
         <translation>%s, 必须在配置文件里设置rpc密码:
  %s
 建议使用如下的随机密码:
-rpcuser=DigitalCreditsrpc
+rpcuser=digitalcredits-rpc-username
 rpcpassword=%s
 (不需要记住该密码)
 用户名和密码不能重复。

@@ -13,9 +13,6 @@
   <property name="windowTitle">
    <string>Send Coins</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">QListView { background: transparent; }</string>
-  </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,0">
    <property name="bottomMargin">
     <number>8</number>
@@ -34,9 +31,6 @@
        <height>16777215</height>
       </size>
      </property>
-     <property name="styleSheet">
-      <string notr="true">QListView { background: transparent; }</string>
-     </property>
      <property name="frameShape">
       <enum>QFrame::StyledPanel</enum>
      </property>
@@ -45,7 +39,7 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayoutCoinControl2">
       <property name="spacing">
-       <number>6</number>
+       <number>-1</number>
       </property>
       <property name="leftMargin">
        <number>0</number>
@@ -631,8 +625,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>828</width>
-        <height>162</height>
+        <width>830</width>
+        <height>165</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -721,9 +715,6 @@
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
-	     <property name="styleSheet">
-	      <string notr="true">color: rgb(255, 255, 255);</string>
-		 </property>
          <property name="text">
           <string>Balance:</string>
          </property>
@@ -740,9 +731,6 @@
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
          </property>
-		 <property name="styleSheet">
-	      <string notr="true">color: rgb(255, 255, 255);</string>
-		 </property>
          <property name="text">
           <string>123.456 DGCS</string>
          </property>

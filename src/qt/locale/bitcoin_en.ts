@@ -236,8 +236,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DGCS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DGCS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-13"/>
-        <source>&amp;Receive Credits</source>
-        <translation>&amp;Receive Credits</translation>
+        <source>&amp;Receive coins</source>
+        <translation>&amp;Receive coins</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -362,8 +362,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-7"/>
-        <source>&amp;Send Credits</source>
-        <translation>&amp;Send Credits</translation>
+        <source>&amp;Send coins</source>
+        <translation>&amp;Send coins</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -430,8 +430,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send Credits to a DigitalCredits address</source>
-        <translation>Send Credits to a DigitalCredits address</translation>
+        <source>Send coins to a DigitalCredits address</source>
+        <translation>Send coins to a DigitalCredits address</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -1141,8 +1141,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 5.00 recommended.</source>
-        <translation>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 5.00 recommended.</translation>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.00002 recommended.</source>
+        <translation>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.00002 recommended.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1772,8 +1772,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,7 +1916,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
+        <source>The address to send the payment to  (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
         <translation></translation>
     </message>
     <message>
@@ -1946,8 +1946,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
 </context>
 <context>
@@ -1970,8 +1970,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>The address to sign the message with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address to sign the message with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>The address to sign the message with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2034,8 +2034,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>The address the message was signed with (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>The address the message was signed with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>The address the message was signed with (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2050,8 +2050,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</source>
-        <translation>Enter a DigitalCredits address (e.g. 2JhbfkAFvXqYkreSgJfrRLS9DepUcxbQci)</translation>
+        <source>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</source>
+        <translation>Enter a DGCS address (e.g. DGCS5b4NXZb43QYLMfCacLJu63Ta2FxDnL9)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2653,8 +2653,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or DigitalCreditsd</source>
-        <translation>Send command to -server or DigitalCreditsd</translation>
+        <source>Send command to -server or digitalcreditsd</source>
+        <translation>Send command to -server or digitalcreditsd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2673,13 +2673,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: DigitalCredits.conf)</source>
-        <translation>Specify configuration file (default: DigitalCredits.conf)</translation>
+        <source>Specify configuration file (default: digitalcredits.conf)</source>
+        <translation>Specify configuration file (default: digitalcredits.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: DigitalCreditsd.pid)</source>
-        <translation>Specify pid file (default: DigitalCreditsd.pid)</translation>
+        <source>Specify pid file (default: digitalcreditsd.pid)</source>
+        <translation>Specify pid file (default: digitalcreditsd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2703,8 +2703,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 29081 or testnet: 25086)</source>
+        <translation>Listen for connections on &lt;port&gt; (default: 29081 or testnet: 25086)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2763,7 +2763,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 29061 or testnet: 26086)</source>
         <translation></translation>
     </message>
     <message>
@@ -3017,7 +3017,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=DigitalCreditsrpc
+rpcuser=digitalcredits-rpc-username
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
